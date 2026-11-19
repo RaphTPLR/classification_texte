@@ -58,9 +58,6 @@ st.markdown(
     .nav { display:flex; align-items:center; justify-content:space-between; height:52px; }
     .stApp .brand { color:var(--white); font-size:1.13rem; font-weight:400; letter-spacing:-.045em; }
     .stApp .brand strong { font-weight:750; }
-    .nav-links { display:flex; align-items:center; gap:.35rem; }
-    .nav-link { padding:.58rem .85rem; border-radius:999px; color:#A9ADB6; font-size:.76rem; font-weight:500; }
-    .nav-link.active { background:#1B1D23; color:var(--white); }
     .nav-pill { padding:.58rem .95rem; border:1px solid var(--line-light); border-radius:999px; color:var(--white); font-size:.74rem; font-weight:600; }
 
     .hero { padding:5.5rem 0 2.8rem; text-align:center; }
@@ -153,7 +150,6 @@ st.markdown(
 
     @media (max-width:760px) {
         .block-container { padding:1rem 1rem 3rem; }
-        .nav-links { display:none; }
         .hero { padding:3.5rem 0 2.2rem; }
         .stApp .hero-title { font-size:2.65rem !important; line-height:1 !important; }
         .hero-title br { display:none; }
@@ -222,11 +218,6 @@ st.markdown(
     """
     <nav class="nav">
         <div class="brand"><strong>Film</strong>Sentiment</div>
-        <div class="nav-links">
-            <span class="nav-link active">Analyse</span>
-            <span class="nav-link">Fonctionnement</span>
-            <span class="nav-link">À propos</span>
-        </div>
         <div class="nav-pill">BiLSTM · FR</div>
     </nav>
     <header class="hero">
