@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Modèles expérimentaux inutilisés par l'application déployée
+tfidf_*.joblib
+
+# Fichiers locaux
+.DS_Store
+Thumbs.db
+
